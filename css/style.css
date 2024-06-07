@@ -12,7 +12,6 @@
 *{
 
     padding: 0px;
-  
     margin: 0px;
     
 }
@@ -26,7 +25,6 @@ body{
     margin: 0px auto;
 }
 header{
-    position:fixed;
     width: 100%;
     height: 70px;  
     background-color: #080808;
@@ -73,7 +71,7 @@ nav li a:hover{
     float:left;
     padding: 0px 40px 40px 40px;
     min-height: 500px;
-    margin: 100px 50px 50px 50px;
+    margin: 20px 50px 50px 50px;
     border-style: solid;
 
 
@@ -126,11 +124,11 @@ h2{
 }
 
 iframe{
-margin-top: 40px;
-margin-bottom: 40px;
-max-width: 100%;
-border-style: solid;
-padding: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 100%;
+    border-style: solid;
+    padding: 1px;
 }
 
 .rrss{
@@ -142,8 +140,8 @@ padding: 1px;
 }
 
 .grid-nuevotema{
-display: grid;
-grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .descripcion-nuevotema{
@@ -173,4 +171,86 @@ footer{
     color: white;
     font-size: small;
    }
+
+/* a partir de aca es la pagina de calendario ------>*/
+
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 40px;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.textoconcierto{
+    margin: 0px;
+}
+.contenedor-conciertos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	
+}
+
+.card .textos {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    }
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.textocalendario{
+    text-align: center;
+}
    
