@@ -23,7 +23,6 @@ body{
     color: black;
 }
 #container{
-    width: 80%;
     margin: 0px auto;
 }
 header{
@@ -72,24 +71,20 @@ nav li a:hover{
 
 #contenido{
     float:left;
-    width: 90%;
     padding: 0px 40px 40px 40px;
     min-height: 500px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin: 100px 50px 50px 50px;
     border-style: solid;
+
 
 }
 
 #nuevostemas{
     float:left;
-    width: 90%;
     min-height: 500px;
     padding: 0px 40px ;
-    margin-top: 0px;
-    margin-bottom: 50px;
+    margin: 0px 50px 50px 50px;
     border-style: solid;
-
 }
 
 .article{
@@ -149,13 +144,19 @@ padding: 1px;
 .grid-nuevotema{
 display: grid;
 grid-template-columns: 1fr 1fr;
-gap: 20px;
 }
 
 .descripcion-nuevotema{
     padding-top: 50px;
     justify-content: center;
     align-items: center;
+    margin-left: 15px;
+}
+
+.video-nuevotema{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .borderdesc{
