@@ -207,7 +207,6 @@ footer{
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-	
 }
 
 .card .textos {
@@ -216,7 +215,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     color: white;
-    }
+}
 
 .banner {
 	border-radius: 10px;
