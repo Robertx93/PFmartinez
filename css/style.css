@@ -338,7 +338,7 @@ padding: 10px;
         float:left;
         padding: 0px 0px 0px 0px;
         min-height: 500px;
-        margin: 20px 5px 50px 5px;
+        margin: 0px 0px 50px 0px;
         border-style: none;
     }
 
@@ -427,8 +427,8 @@ padding: 10px;
         color:white;
     }
     .article{
-        margin-top: 25px;
-        margin-bottom: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         padding-bottom: 10px;
         border-bottom: 1px solid white;
         text-align:center;
@@ -456,4 +456,7 @@ padding: 10px;
             font-size: medium;
         }
     
+    #container{
+            margin: 0px auto 0px auto;
+        }
 }
