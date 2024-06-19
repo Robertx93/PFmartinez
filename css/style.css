@@ -260,34 +260,6 @@ footer{
 
 /* desde aca la pagina de discografia */
 
-.c-item {
-    height: 100%;
-  }
-  
-  .c-img {
-    width: 480px;
-    height: 480px;
-    filter: brightness(0.6);
-  }
-
-#hero-carousel{
-    width: 100%;
-	max-width: 1200px;
-	margin: auto;
-	padding: 40px 40px;
-
-    display:flex;
-    gap: 20px;
-}
-
-.reproductor{
-    align-items: center;
-    text-align: center;
-    align-content: center;
-    margin: 50px;
-    padding: 50px;
-}
-
 /* response ----> */
 /* mobile */
 @media screen and (max-width: 768px) {
