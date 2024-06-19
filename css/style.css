@@ -26,7 +26,7 @@ body{
     min-height: 100vh;
 }
 #container{
-    margin: 0px auto;
+    margin: 40px auto 0px auto;
 }
 header{
     width: 100%;
@@ -169,7 +169,7 @@ iframe{
 
 footer{
     text-align: center;
-    margin: 0px 0px;
+    margin: 40px 0px 0px 0px;
     padding: 10px;
     background-color: #080808;
     color: white;
@@ -255,6 +255,7 @@ footer{
 
 .textocalendario{
     text-align: center;
+    margin-top: 30px;
 }
 
 /* response ----> */
