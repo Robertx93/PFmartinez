@@ -370,6 +370,37 @@ background-attachment: fixed;
     width: 100%;
 }
 
+.texto-introduccionp .texto-introduccion{
+    text-align: center;
+    padding: 40px;
+    background-color: #000000ab;
+}
+
+.video-multimedia{
+    text-align: center;
+    padding: 0px;
+    background-color: #000000ab;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.texto-videomultimedia{
+    text-align: center;
+    font-size: large;
+}
+
+.video-multimedia1{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    max-width: 100%;
+    border-style: solid;
+    padding: 1px;
+    width: 1000px;
+    height: 520px;
+}
+
 
 /* response ----> */
 /* mobile */
@@ -537,5 +568,15 @@ background-attachment: fixed;
             margin: 0px;
             font-size: 15px;
             padding: 10px;
+        }
+
+    .video-multimedia1{
+            margin-top: 0px;
+            margin-bottom: 40px;
+            max-width: 100%;
+            border-style: none;
+            padding: 0px;
+            width: 1000px;
+            height: 300px;
         }
 }
