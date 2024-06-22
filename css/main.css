@@ -260,6 +260,10 @@ h2 {
   overflow: hidden;
   background-size: cover;
   background-position: center center;
+  transition: all 1s;
+}
+#container .contenedor .contenedor-conciertos .card:hover {
+  padding: 10px;
 }
 #container .contenedor .contenedor-conciertos .card .textos {
   height: 100%;
@@ -278,6 +282,9 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+#container .contenedor .banner:hover {
+  padding: 10px;
 }
 #container .contenedor .banner ul {
   list-style: none;
