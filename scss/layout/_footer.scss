@@ -1,0 +1,22 @@
+footer{
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+    padding: 10px;
+    background-color:$color-primary;
+    color:white;
+    font-size: small;
+
+    @include mobile {
+        margin: 0px 0px;
+        padding: 1px;
+        font-size: 10px;
+    }
+
+    .footer{
+        text-align: center;
+
+        .rrss{
+            color:white;
+        }
+    }
+   }

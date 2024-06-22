@@ -1,0 +1,75 @@
+p{
+    text-align: justify;
+    margin: 15px;
+    font-family: $font-family-secondary;
+}
+
+h2{
+    font-family: jaro;
+    text-decoration: underline;
+    margin: 20px 10px 10px 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+
+}
+
+.textoconcierto{
+    margin: 0px;
+    @include mobile {
+        margin: 0px;
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+.textocalendario{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.textodiscografia{
+    text-align: center;
+    margin: 30px;
+
+    @include mobile {
+        text-align: justify;
+        margin: 30px 10px 0px 10px;
+    }
+}
+
+.textorepro{
+    margin: 0px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.texto-introduccion{
+    text-align: center;
+    padding: 40px;
+    background-color: #000000ab;
+}
+
+.texto-videomultimedia{
+    text-align: center;
+    font-size: large;
+
+    @include mobile {
+        font-size: medium;
+    }
+}
+
+.h3res{
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    @include mobile {
+        font-size: medium;
+    }
+}
+
+.nuevotemah3{
+    text-align: justify;
+    padding: 10px;
+
+    @include mobile {
+        text-align: center;
+    }
+}
