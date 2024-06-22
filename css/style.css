@@ -317,12 +317,12 @@ padding: 10px;
 }
 
 /* multimedia */
-#contenido-multimedia{
-background-image: url(../assets/images/3dfondomulti.jpg);
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
-background-attachment: fixed;
+.fondo-multimedia{
+    background-image: url(../assets/images/3dfondomulti.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .contenedor-multimedia{
