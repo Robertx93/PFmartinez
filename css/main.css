@@ -394,7 +394,7 @@ h2 {
 @media screen and (max-width: 768px) {
   #container .contenedor-multimedia .contenedor-multimedia1 {
     grid-template-columns: repeat(1, 1fr);
-    gap: 5px;
+    gap: 10px;
   }
 }
 #container .contenedor-multimedia .contenedor-multimedia1 .card-multimedia {
@@ -476,7 +476,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   body {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -555,7 +555,7 @@ footer {
   footer {
     margin: 0px 0px;
     padding: 1px;
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 footer .footer {
@@ -581,13 +581,15 @@ footer i {
   color: white;
   margin: 5px;
   border-radius: 50%;
-  padding: 5px;
+  padding: 8px;
   box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.35);
   transition: 0.3s ease;
 }
 @media screen and (max-width: 768px) {
   footer i {
-    font-size: 15px;
+    font-size: 25px;
+    padding: 0px;
+    margin: 15px 5px 0px 5px;
   }
 }
 footer .fa-youtube:hover {
