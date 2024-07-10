@@ -1,0 +1,42 @@
+@mixin mobile {
+    @media screen and (max-width: 768px){
+        @content;
+    }
+    }
+
+
+@mixin facebook {
+    background-color: $color-fb;
+    color: white;
+    box-shadow: 0 0 15px $color-fb,
+                0 0 45px $color-fb,
+                0 0 75px $color-fb,
+                0 0 115px $color-fb;
+}
+
+@mixin twitter {
+    background-color: $color-tw;
+    color: white;
+    box-shadow: 0 0 15px $color-tw,
+                0 0 45px $color-tw,
+                0 0 75px $color-tw,
+                0 0 115px $color-tw;
+}
+
+@mixin youtube {
+    background-color: $color-yt;
+    color: white;
+    box-shadow: 0 0 15px $color-yt,
+                0 0 45px $color-yt,
+                0 0 75px $color-yt,
+                0 0 115px $color-yt;
+}
+
+@mixin instagram {
+    background: $color-dgig;
+    color: white;
+    box-shadow: 0 0 15px $color-ig,
+                0 0 45px $color-ig,
+                0 0 75px $color-ig,
+                0 0 115px $color-ig;
+}

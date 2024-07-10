@@ -4,13 +4,19 @@ p{
     font-family: $font-family-secondary;
 }
 
-h2{
+h1{
     font-family: jaro;
-    text-decoration: underline;
     margin: 20px 10px 10px 10px;
     text-align: center;
     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    font-size: auto;
+}
 
+h2{
+    font-family: jaro;
+    margin: 20px 10px 10px 10px;
+    text-align: center;
+    text-shadow:4px 4px 4px black, 0 0 1em black, 0 0 0.2em black;
 }
 
 .textoconcierto{
@@ -59,7 +65,7 @@ h2{
 }
 
 .h3res{
-    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    text-shadow: 4px 4px 4px black, 0 0 1em black, 0 0 0.2em black;
     @include mobile {
         font-size: medium;
     }

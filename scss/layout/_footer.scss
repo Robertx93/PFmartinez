@@ -14,9 +14,48 @@ footer{
 
     .footer{
         text-align: center;
+    }
+    .rrss{
+        margin: 0;
+        position: fixed;
+        bottom:0%;
+        right: 0%;
+        transform: translate(-50%, -50%);
+        display:grid;
 
-        .rrss{
-            color:white;
+        @include mobile{
+            display: inline;
+            position: relative;
         }
+
+    }
+    
+    i{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        margin: 5px;
+        border-radius: 50%;
+        padding: 5px;
+        box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.35);
+        transition: .3s ease;
+        
+        @include mobile{
+            font-size: 15px;
+        }
+        }
+    
+    .fa-youtube:hover{
+        @include youtube
+    }
+    
+    .fa-twitter:hover{
+        @include twitter
+    }
+    .fa-instagram:hover{
+        @include instagram
+    }
+    .fa-facebook:hover{
+        @include facebook
     }
    }

@@ -17,12 +17,19 @@ p {
   font-family: roboto;
 }
 
-h2 {
+h1 {
   font-family: jaro;
-  text-decoration: underline;
   margin: 20px 10px 10px 10px;
   text-align: center;
   text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  font-size: auto;
+}
+
+h2 {
+  font-family: jaro;
+  margin: 20px 10px 10px 10px;
+  text-align: center;
+  text-shadow: 4px 4px 4px black, 0 0 1em black, 0 0 0.2em black;
 }
 
 .textoconcierto {
@@ -75,7 +82,7 @@ h2 {
 }
 
 .h3res {
-  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  text-shadow: 4px 4px 4px black, 0 0 1em black, 0 0 0.2em black;
 }
 @media screen and (max-width: 768px) {
   .h3res {
@@ -554,8 +561,54 @@ footer {
 footer .footer {
   text-align: center;
 }
-footer .footer .rrss {
+footer .rrss {
+  margin: 0;
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  display: grid;
+}
+@media screen and (max-width: 768px) {
+  footer .rrss {
+    display: inline;
+    position: relative;
+  }
+}
+footer i {
+  text-align: center;
+  font-size: 25px;
   color: white;
+  margin: 5px;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.35);
+  transition: 0.3s ease;
+}
+@media screen and (max-width: 768px) {
+  footer i {
+    font-size: 15px;
+  }
+}
+footer .fa-youtube:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0 0 15px red, 0 0 45px red, 0 0 75px red, 0 0 115px red;
+}
+footer .fa-twitter:hover {
+  background-color: #1da1f2;
+  color: white;
+  box-shadow: 0 0 15px #1da1f2, 0 0 45px #1da1f2, 0 0 75px #1da1f2, 0 0 115px #1da1f2;
+}
+footer .fa-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: white;
+  box-shadow: 0 0 15px #d6249f, 0 0 45px #d6249f, 0 0 75px #d6249f, 0 0 115px #d6249f;
+}
+footer .fa-facebook:hover {
+  background-color: #3b5998;
+  color: white;
+  box-shadow: 0 0 15px #3b5998, 0 0 45px #3b5998, 0 0 75px #3b5998, 0 0 115px #3b5998;
 }
 
 /*# sourceMappingURL=main.css.map */
