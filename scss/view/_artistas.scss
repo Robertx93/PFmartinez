@@ -1,0 +1,58 @@
+#container-art{
+    margin: 40px auto 0px auto;
+
+    @include mobile {
+        margin: 0px auto 0px auto;
+    }
+    
+    .clear{
+        clear: both;
+    }
+
+    #contenido-art{
+        float:left;
+        padding: 0px 40px 40px 40px;
+        min-height: 500px;
+        margin: 20px 50px 50px 50px;
+        border-style: solid;
+        border-color: $color-primary;
+
+        @include mobile {
+            padding: 0px 0px 0px 0px;
+            min-height: 500px;
+            margin: 0px 0px 50px 0px;
+            border-style: none;
+
+        }
+        
+        .article-art{
+            margin-top: 25px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid white;
+            text-align:center;
+
+            @include mobile {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                padding-bottom: 10px;
+            }
+            .tituloartista{
+                position: relative;
+                align-items: center;
+                .contenido2{
+                    max-width: 100%;
+                }
+                .tilart{
+                    position: absolute;
+                    bottom: 3%;
+                    left: 30%;
+                    right: 30%;
+                }
+                }
+
+        }
+
+    }
+
+}
